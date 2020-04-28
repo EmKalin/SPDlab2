@@ -145,7 +145,8 @@ def zad2(pliki):
         print("Czas: ", (end - start) * 1000, " ms")
 
         start1 = time.time()
-        wynik = dynamicW(dane)
+        #wynik = dynamicW(dane)
+        wynik = BF(dane)
         end1 = time.time()
         print("")
         print("BF Rekurencyjnie wynik: ", wynik)
